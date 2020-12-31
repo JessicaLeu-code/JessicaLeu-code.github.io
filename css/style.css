@@ -182,11 +182,11 @@ nav ul li ul li:hover {
 /* Background color change on Hover */
 
 nav a:hover {
-    color: #EA8A95;
+    color: #FFC706;
 }
 
 .menu li.active a {
-    color: #EA8A95;
+    color: #FFC706;
 }
 
 /* Hide Dropdowns by Default
@@ -217,7 +217,7 @@ nav ul ul li {
 }
 
 nav ul ul li a {
-    color: #333;
+    color: #000059;
     padding: 5px 10px;
     display: block;
 }
@@ -275,7 +275,7 @@ li > a:only-child:after {
         border: none;
         
         background-color: #ffffff;
-        color: #333;
+        color: #000059;
         cursor: pointer;
     }
     .menu .toggle {
@@ -290,7 +290,7 @@ li > a:only-child:after {
     }
 
     .toggle:hover {
-        color: #333;
+        color: #000059;
         background-color: #fff;
     }
 
@@ -426,7 +426,7 @@ li > a:only-child:after {
     border-radius: 50%;
 }
 a.banner-button, button.submit {
-    background: #EA8A95;
+    background: #000059;
     color: #fff;
     letter-spacing: 1px;
     font-size: 1.5em;
@@ -443,7 +443,7 @@ a.banner-button, button.submit {
 }
 a.banner-button:hover {
     border:none;
-     background:#e07682;
+     background:#FFC300;
     color: #fff;
 }
 a.banner-button2 {
@@ -483,6 +483,25 @@ a.banner-button2:hover {
     font-size: 4.5em;
     color:#8abdea;
 }
+
+.agileits-services2-grids i {
+    font-size: 2em;
+    color: #b84373;
+    text-align: center;
+}
+.agileits-services2-grids h4 {
+    font-size: 1.5em;
+    color: #3e3e3e;
+    text-transform: CAPITALIZE;
+    line-height: 1.5em;
+    letter-spacing: -0.015em;
+    font-weight: 700;
+}
+.agileits-services2-grids span {
+    font-size: 4.5em;
+    color:#8abdea;
+}
+
 p.subs {
     font-size: 1.25em;
 }
@@ -563,6 +582,10 @@ section.news.text-center h4 {
     padding: 8em 0;
     background: #303030;
 }
+.wedo2 {
+    padding: 3.5em 0;
+    background: #303030;
+}
 .contact_grid_right input[type="text"], .contact_grid_right input[type="email"], .contact_grid_right textarea {
     outline: none;
     padding: 15px 15px;
@@ -608,7 +631,7 @@ section.news.text-center h4 {
 
 .contact_grid_right input[type="submit"],
 .contact_grid_right input[type="reset"]:hover {
-    background-color: #EA8A95;
+    background-color: #FFC706;
 }
 .contact_grid_right.mt-5.text-center {
     width: 80%;
@@ -1066,6 +1089,9 @@ ul.social_section_1info a {
 }
 .agileits-services {
     padding: 3em 0em 3em 0em;
+}
+.agileits-services2 {
+    padding: 1em 0em 1em 0em;
 }
 section.team-sec.main-stats-inner {
     padding: 2em 2em 2em 2em;
